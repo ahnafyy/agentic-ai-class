@@ -5,7 +5,7 @@ import sys
 def generate_response(messages: List[Dict]) -> str:
    """Call LLM to get response"""
    response = completion(
-      model="openai/gpt-4",
+      model="gemini/gemini-2.5-flash",
       messages=messages,
       max_tokens=1024
    )
