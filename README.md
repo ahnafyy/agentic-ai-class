@@ -1,6 +1,5 @@
 # agentic-ai-class
-Coursework for AI Agents and Agentic AI with Python & Generative AI by Vanderbilt University
-
+Notes from ai classes combined together
 
 ## Setup
 
@@ -28,6 +27,13 @@ pip install litellm
 
 ```bash
 echo 'export OPENAI_API_KEY="sk-..."' >> ~/.zshrc
+source ~/.zshrc
+```
+
+** If you're planning on using gemini then Set it up**
+
+```bash
+echo 'export GOOGLE_API_KEY="REPLACE_WITH_KEY"' >> ~/.zshrc
 source ~/.zshrc
 ```
 
